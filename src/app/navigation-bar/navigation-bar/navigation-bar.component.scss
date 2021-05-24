@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+@import "../../../variables.scss";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // min-height: 8vh;
+    min-height: 55px;
+    background-color: $cssa-darkest-brown;
+    color: $cssa-brown-white;
+    letter-spacing: 1px;
+}
+
+.logo {
+    float:left;
+    height: 40px;
+    // height: 7vh;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+// .home-button {
+    
+    // width: 30%;
+// }
+
+.home-button a {
+    display: flex;
+    align-items: center;
+
+    // width: 100%;
+    font-family: 'Noto Serif', Georgia, serif;
+    font-size: 20px;
+    // color: $cssa-brown-white;
+    color: $cssa-yellow;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    list-style: none;
+}
+
+.nav-links a {
+    font-family: 'Noto Serif', Georgia, serif;
+    font-size: 18px;
+    color: $cssa-brown-white;
+    // color: $cssa-yellow;
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: $cssa-dark-brown;
+}
+
+.nav-links a:clicked {
+    background-color: $cssa-dark-brown;
+}
+
+@media only screen and (max-width: 800px) {
+    nav {
+      background-color: lightblue;
+    }
+  }
