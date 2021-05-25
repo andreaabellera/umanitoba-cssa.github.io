@@ -1,0 +1,13 @@
+.exec-card-container {
+    display: flex;
+    justify-content: center;
+    display:flex-end;
+    flex-wrap: wrap;
+}
+
+.exec-card {
+    min-width: 300px;
+    width: 32%;
+    // padding:top
+    // flex: 1;
+}

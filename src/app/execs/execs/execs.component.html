@@ -1,0 +1,17 @@
+<div class="panel">
+    <div class="panel-header">
+        <h1>Executives</h1>
+        <h2>Meet the current elected team of the Computer Science Students' Association</h2>
+    </div>
+
+    <div class="panel-content exec-card-container">
+        <div 
+            *ngFor="let exec of execs"
+            class="exec-card"
+        >
+            <exec-card
+                [exec]="exec"
+            ></exec-card>
+        </div>
+    </div>
+</div>

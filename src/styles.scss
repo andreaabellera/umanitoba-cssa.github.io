@@ -6,15 +6,21 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Noto Serif', Georgia, serif;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 64px;
+}
+
 body, html {
     margin:0;
     padding:0;
     width:100%;
     height:100%;
-    overflow: auto;
-    }
+    // overflow: auto;
+    scroll-behavior: smooth;
+}
 
-body, input {
+body {
     color: $cssa-darkest-brown;
     background-color: $cssa-brown-white;
     font-family: Verdana, Helvetica, Arial, sans-serif;
@@ -23,10 +29,64 @@ body, input {
 * { 
     font-family: Verdana, Helvetica, Arial, sans-serif;
 }
+
 a {
     color: $um-blue;
 }
 
 a:visited {
     color: $um-light-blue;
+}
+
+.reference {
+    top:-65px;
+}
+
+.main-content {
+    width: 100%;
+}
+
+.panel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel-header {
+    width: 100%;
+    background-color: $cssa-darkest-brown;
+    /* top | right | bottom | left */
+    padding: 3vh 0 3vh 0;
+    h1 {
+        color: $cssa-brown-white;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    h2 {
+        color: $cssa-yellow;
+        padding-left: 10%;
+        padding-right: 10%;
+    } 
+}
+
+.panel-content {
+    width: 80%;
+    background-color: $cssa-brown-white;
+}
+
+@media only screen and (max-width: 375px) {
+    .panel-header {
+        h1 {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        h2 {
+            padding-left: 5%;
+            padding-right: 5%;
+        } 
+    }
+    .panel-content {
+        width: 90%;
+    }
 }

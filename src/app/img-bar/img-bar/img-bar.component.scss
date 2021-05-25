@@ -1,0 +1,27 @@
+.img-bar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-container {
+    height: 500px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.pos-top {
+    object-position: 50% 10%;
+}
+
+.pos-bottom {
+    object-position: 50% 90%;
+}
+
+.pos-center {
+    object-position: 50% 50%;
+}
