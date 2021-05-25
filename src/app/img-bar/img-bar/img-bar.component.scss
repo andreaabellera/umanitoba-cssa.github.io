@@ -25,3 +25,15 @@ img {
 .pos-center {
     object-position: 50% 50%;
 }
+
+@media only screen and (max-width: 800px) {
+    .img-container {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .img-container {
+        height: 250px;
+    }
+}
