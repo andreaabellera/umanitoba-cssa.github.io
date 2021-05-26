@@ -1,0 +1,45 @@
+.google-calendar-container {
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+}
+
+.google-calendar {
+    border-width: 0;
+    width: 60vw;
+    max-width: 1200px;
+    height: 50vw;
+    min-height: 450px;
+    max-height: 600px;
+}
+
+.google-calendar-agenda {
+    display: none;
+    border-width: 0;
+    width: 80vw;
+    height: 50vw;
+    min-height: 450px;
+    max-height: 600px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .google-calendar {
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .google-calendar {
+        display: none;
+    }
+    
+    .google-calendar-agenda {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 375px) {    
+    .google-calendar-agenda {
+        width: 90vw;
+    }
+}

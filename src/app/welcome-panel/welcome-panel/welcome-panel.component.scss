@@ -47,8 +47,11 @@
 .welcome-down-icon {
     text-align: center;
     padding: 10px;
-    color: $cssa-brown-white;
     color: $cssa-yellow;
+}
+
+.welcome-down-icon:active {
+    color: $um-yellow;
 }
 
 // Animated slide attempt 1
