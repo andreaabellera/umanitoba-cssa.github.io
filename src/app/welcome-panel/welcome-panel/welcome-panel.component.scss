@@ -50,8 +50,12 @@
     color: $cssa-yellow;
 }
 
-.welcome-down-icon:active {
+.welcome-down-icon:hover {
     color: $um-yellow;
+}
+
+.welcome-down-icon:active {
+    color: $cssa-orange;
 }
 
 // Animated slide attempt 1

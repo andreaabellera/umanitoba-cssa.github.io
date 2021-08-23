@@ -1,9 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Jomolhari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Jomolhari&display=swap');
 @import "./variables.scss";
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Noto Serif', Georgia, serif;
+.serif-font {
+    font-family: 'Jomolhari', Georgia, serif;
 }
 
 html {
@@ -23,11 +24,12 @@ body, html {
 body {
     color: $cssa-darkest-brown;
     background-color: $cssa-brown-white;
-    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-family: 'Atkinson Hyperlegible', Verdana, Helvetica, Arial, sans-serif;
+    font-size: large;
 }
 
 * { 
-    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-family: 'Atkinson Hyperlegible', Verdana, Helvetica, Arial, sans-serif;
 }
 
 a {

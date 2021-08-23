@@ -40,7 +40,6 @@ nav {
     align-items: center;
 
     // width: 100%;
-    font-family: 'Noto Serif', Georgia, serif;
     font-size: 20px;
     // color: $cssa-brown-white;
     color: $cssa-yellow;
@@ -57,21 +56,23 @@ nav {
 }
 
 .nav-links a {
-    font-family: 'Noto Serif', Georgia, serif;
     font-size: 18px;
     color: $cssa-brown-white;
     // color: $cssa-yellow;
     text-decoration: none;
     padding: 5px;
     transition: 0.3s;
+    font-weight: 600;
 }
 
 .nav-links a:hover {
     background-color: $cssa-dark-brown;
+    border-radius: 3px;
 }
 
-.nav-links a:clicked {
-    background-color: $cssa-dark-brown;
+.nav-links a:active {
+    background-color: $cssa-brown;
+    border-radius: 3px;
 }
 
 .nav-menu {
