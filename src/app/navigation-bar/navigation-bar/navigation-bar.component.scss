@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+@import "../../../variables.scss";
+
+$nav-bar-height: 55px;
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // min-height: 8vh;
+    height: 65px;
+    background-color: $cssa-darkest-brown;
+    color: $cssa-brown-white;
+    letter-spacing: 1px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo {
+    float:left;
+    height: 40px;
+    // height: 7vh;
+    margin-right: 10px;
+}
+
+// .home-button {
+    
+    // width: 30%;
+// }
+
+.home-button a {
+    display: flex;
+    align-items: center;
+
+    // width: 100%;
+    font-size: 20px;
+    // color: $cssa-brown-white;
+    color: $cssa-yellow;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    list-style: none;
+}
+
+.nav-links a {
+    font-size: 18px;
+    color: $cssa-brown-white;
+    // color: $cssa-yellow;
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    background-color: $cssa-dark-brown;
+    border-radius: 3px;
+}
+
+.nav-links a:active {
+    background-color: $cssa-brown;
+    border-radius: 3px;
+}
+
+.nav-menu {
+    display:none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .nav-links  {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-links {
+        // position: absolute;
+        // right: 0px;
+        // top: 5
+        display:none;
+    }
+    .nav-menu {
+        display:block;
+        outline:none;
+        border:none;
+        background: transparent;
+        color: $cssa-brown-white;
+    }
+
+    .home-button a {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .home-button a {
+        font-size: 14px;
+    }
+}
+
+// TODO Finish mobile version of the navbar

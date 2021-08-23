@@ -1,0 +1,44 @@
+
+<div>
+    <h2 *ngIf="exec.nickName!==undefined; else elseBlock">
+        {{exec.name}} ({{exec.nickName}})
+    </h2>
+    <h3>{{exec.role}}</h3>
+    <ng-template #elseBlock>
+        <h2>
+            {{exec.name}}
+        </h2>
+    </ng-template>
+    <div class="exec-photo">
+        <img
+            src="{{'/assets/images/execs/' + exec.photo}}"
+            alt="{{'Image of ' + exec.name}}"
+            loading="lazy"
+        >
+    </div>
+    <ul class="exec-connections">
+        <li *ngIf="exec.email!==undefined">
+            <a href="{{'mailto:' + exec.email}}">
+                <fa-icon [icon]="['fas', 'envelope']" size="2x"></fa-icon>
+            </a>
+        </li>
+        <li *ngIf="exec.website!==undefined">
+            <a href="{{exec.website}}">
+                <fa-icon [icon]="['fas', 'globe']" size="2x"></fa-icon>
+            </a>
+        </li>
+        <li *ngIf="exec.linkedin!==undefined">
+            <a href="{{'https://www.linkedin.com/in/' + exec.linkedin}}">
+                <fa-icon [icon]="['fab', 'linkedin']" size="2x"></fa-icon>
+            </a>
+        </li>
+        <li *ngIf="exec.github!==undefined">
+            <a href="{{'https://github.com/' + exec.github}}">
+                <fa-icon [icon]="['fab', 'github']" size="2x"></fa-icon>
+            </a>
+        </li>
+    </ul>
+    <div class="exec-description">
+        <p>{{exec.description}}</p>
+    </div>
+</div>
