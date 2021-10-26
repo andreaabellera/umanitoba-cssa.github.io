@@ -23,17 +23,17 @@
             </a>
         </li>
         <li *ngIf="exec.website!==undefined">
-            <a href="{{exec.website}}">
+            <a href="{{exec.website}}" target="_blank">
                 <fa-icon [icon]="['fas', 'globe']" size="2x"></fa-icon>
             </a>
         </li>
         <li *ngIf="exec.linkedin!==undefined">
-            <a href="{{'https://www.linkedin.com/in/' + exec.linkedin}}">
+            <a href="{{'https://www.linkedin.com/in/' + exec.linkedin}}" target="_blank">
                 <fa-icon [icon]="['fab', 'linkedin']" size="2x"></fa-icon>
             </a>
         </li>
         <li *ngIf="exec.github!==undefined">
-            <a href="{{'https://github.com/' + exec.github}}">
+            <a href="{{'https://github.com/' + exec.github}}" target="_blank">
                 <fa-icon [icon]="['fab', 'github']" size="2x"></fa-icon>
             </a>
         </li>
