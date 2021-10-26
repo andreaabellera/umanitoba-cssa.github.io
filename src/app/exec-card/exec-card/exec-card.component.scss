@@ -10,6 +10,13 @@
     a {
         padding: 0 10px 0 10px;
         color: $um-blue;
+        transition: 0.3s;
+    }
+    a:hover {
+        color: $um-dark-blue;
+    }
+    a:active {
+        color: $um-darkest-blue;
     }
 }
 

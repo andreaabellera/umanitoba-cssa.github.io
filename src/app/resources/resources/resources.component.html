@@ -9,5 +9,20 @@
             Here are some useful resources.
             <!-- TODO: Fill this out -->
         </p>
+        <ul class="tab-list">
+            <li 
+                *ngFor="let category of categories"
+                class="tab"
+                [class.selected-tab]="currentCategory.id === category.id"
+                (click)="selectTab(category)"
+            >{{category.name}}</li>
+        </ul>
+        <div class="horizontal-bar"></div>
+        <select
+            class="selector"
+            [(ngModel)]="currentCategory"
+        >
+            <option *ngFor="let category of categories" [ngValue]="category">{{category.name}}</option>
+        </select>
     </div>
 </div>
