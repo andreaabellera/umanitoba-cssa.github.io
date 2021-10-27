@@ -1,15 +1,27 @@
 <div id="contact" class="panel">
     <div class="panel-header">
         <h1>Contact Us</h1>
-        <h2>How to reach out to the CSSA</h2>
-    </div>
+        <h2>Reach out to the CSSA via our email, social media, or the U of M CS Discord</h2>
 
-    <div class="panel-content">
-        <p>
-            If you need to reach out to our team, feel free to contact us via our <a href="mailto:manitobacssa@gmail.com">email</a>, discord server, or social media accounts.
-        </p>
-        <!-- TODO: Have a form for people to reach out to us, or at the very least have links to our social media, discord server, etc. -->
-    
-        <iframe class ="google-form" src="https://docs.google.com/forms/d/e/1FAIpQLSd0woxSqBc-i30EJRI4YE0BLHEvHaT-1JVITZc1tJJ8_lt7-g/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <div class="contact-footer">
+            <div class="contact-icons">
+                <a href="mailto:manitobacssa@gmail.com">
+                    <fa-icon [icon]="['fas', 'envelope']" size="3x"></fa-icon>
+                </a>
+                <a href="https://forms.gle/C11YVJDVW2DhcbjXA" target="_blank">
+                    <fa-icon [icon]="['fab', 'discord']" size="3x"></fa-icon>
+                </a>
+                <a href="https://www.instagram.com/umanitobacssa/" target="_blank">
+                    <fa-icon [icon]="['fab', 'instagram']" size="3x"></fa-icon>
+                </a>
+                <a href="https://www.facebook.com/uofmcssa/" target="_blank">
+                    <fa-icon [icon]="['fab', 'facebook-square']" size="3x"></fa-icon>
+                </a>
+            </div>
+            <p>© 2021 University of Manitoba Computer Science Students' Association</p>
+        </div>
     </div>
+    
+        <!-- TODO: MOVE THIS INTO ABOUT US IN AN ACCORDION -->
+        <!-- <iframe class ="google-form" src="https://docs.google.com/forms/d/e/1FAIpQLSd0woxSqBc-i30EJRI4YE0BLHEvHaT-1JVITZc1tJJ8_lt7-g/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
 </div>
