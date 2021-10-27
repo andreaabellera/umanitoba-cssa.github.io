@@ -1,36 +1,70 @@
-.google-form {
+@import "../../../variables.scss";
+
+.contact-footer {
     width: 100%;
-    height: 1550px;
+    color: $cssa-brown-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-// Cannot match height for security reasons on iframes, so must make custom heights for widths to avoid scroll bars
+.contact-icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 
-@media only screen and (max-width: 800px) {
-    .google-form {
-        height: 1650px;
+    a {
+        color: $cssa-brown-white;
+        margin: 20px 40px 20px 40px;
+        transition: 0.3s;
+    }
+    a:hover {
+        color: $cssa-yellow;
+    }
+    a:active {
+        color: $cssa-orange;
     }
 }
 
-@media only screen and (max-width: 700px) {
-    .google-form {
-        height: 1750px;
-    }
-}
+//  TODO: MOVE THIS TO ABOUT US
 
-@media only screen and (max-width: 600px) {
-    .google-form {
-        height: 1850px;
-    }
-}
+// .google-form {
+//     width: 100%;
+//     height: 1550px;
+// }
 
-@media only screen and (max-width: 500px) {
-    .google-form {
-        height: 1950px;
-    }
-}
 
-@media only screen and (max-width: 400px) {
-    .google-form {
-        height: 2050px;
-    }
-}
+// // Cannot match height for security reasons on iframes, so must make custom heights for widths to avoid scroll bars
+
+// @media only screen and (max-width: 800px) {
+//     .google-form {
+//         height: 1650px;
+//     }
+// }
+
+// @media only screen and (max-width: 700px) {
+//     .google-form {
+//         height: 1750px;
+//     }
+// }
+
+// @media only screen and (max-width: 600px) {
+//     .google-form {
+//         height: 1850px;
+//     }
+// }
+
+// @media only screen and (max-width: 500px) {
+//     .google-form {
+//         height: 1950px;
+//     }
+// }
+
+// @media only screen and (max-width: 400px) {
+//     .google-form {
+//         height: 2050px;
+//     }
+// }
