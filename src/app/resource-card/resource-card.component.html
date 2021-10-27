@@ -1,0 +1,20 @@
+
+<div class="resource-wrapper">
+    <div *ngIf="resource.photo!==undefined" class="resource-photo">
+        <img
+            src="{{'/assets/images/resources/' + resource.photo}}"
+            alt="{{'Logo of ' + resource.title}}"
+            loading="lazy"
+        >
+    </div>
+    <div class="resource-details">
+        <h3>
+            <a href="{{resource.link}}" target="_blank">{{resource.title}}</a>
+            <a class="icon-link" href="{{resource.link}}" target="_blank">
+                <fa-icon [icon]="['fas', 'external-link-alt']"></fa-icon>
+            </a>
+        </h3>
+        
+        <p>{{resource.description}}</p>
+    </div>
+</div>

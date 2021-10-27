@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Exec } from 'src/app/exec';
+import { Exec } from 'src/app/Interfaces/exec';
 
 @Component({
   selector: 'execs',

@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar/navigation-bar.component';
 
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
-import { faArrowAltCircleDown, faBars, faEnvelope, faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faArrowAltCircleDown, faBars, faEnvelope, faGlobe, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { faDiscord, faSlack, faFacebookSquare, faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { WelcomePanelComponent } from './welcome-panel/welcome-panel/welcome-panel.component';
 import { AboutComponent } from './about/about/about.component';
@@ -16,6 +16,7 @@ import { ExecCardComponent } from './exec-card/exec-card/exec-card.component';
 import { ImgBarComponent } from './img-bar/img-bar/img-bar.component';
 import { EventsComponent } from './events/events/events.component';
 import { ResourcesComponent } from './resources/resources/resources.component';
+import { ResourceCardComponent } from './resource-card//resource-card.component';
 import { ContactComponent } from './contact/contact/contact.component';
 
 @NgModule({
@@ -36,6 +37,7 @@ import { ContactComponent } from './contact/contact/contact.component';
     ImgBarComponent,
     EventsComponent,
     ResourcesComponent,
+    ResourceCardComponent,
     ContactComponent
   ],
   providers: [],
@@ -54,5 +56,6 @@ export class AppModule {
     library.addIcons(faInstagram);
     library.addIcons(faLinkedin);
     library.addIcons(faGithub);
+    library.addIcons(faExternalLinkAlt);
   }
 }
