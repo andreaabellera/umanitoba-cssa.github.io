@@ -3,12 +3,12 @@
     <h2 *ngIf="exec.nickName!==undefined; else elseBlock">
         {{exec.name}} ({{exec.nickName}})
     </h2>
-    <h3>{{exec.role}}</h3>
     <ng-template #elseBlock>
         <h2>
             {{exec.name}}
         </h2>
     </ng-template>
+    <h3>{{exec.role}}</h3>
     <div class="exec-photo">
         <img
             src="{{'/assets/images/execs/' + exec.photo}}"
