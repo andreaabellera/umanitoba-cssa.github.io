@@ -139,14 +139,14 @@ export class ResourcesComponent implements OnInit {
           description: "This page contains links on how to cite and reference books, articles, etc. in multiple formats like APA or Chicago."
         },
         {
+          title: "U of M's Expectations for Individual Work in Computer Science",
+          link: "https://sci.umanitoba.ca/cs/expectations/",
+          description: "The Department of Computer Science provides this page to guide students on what they expect and what constitutes academic misconduct."
+        },
+        {
           title: "Nimbus Tutoring",
           link: "https://nimbuslearning.com/get-the-app/",
           description: "The SSA provides a peer tutoring service through the Nimbus Tutoring platform."
-        },
-        {
-          title: "UM Bookstore",
-          link: "https://umanitoba.ca/campus/bookstore/shoponline.html",
-          description: "The University’s online bookstore to purchase course textbooks."
         },
         {
           title: "U of M Career Services’ Resume Workbook ",
@@ -154,10 +154,15 @@ export class ResourcesComponent implements OnInit {
           description: "Get useful advice on how to craft the perfect resume."
         },
         {
-          title: "U of M’s Career Services’ Cover Letter Workbook ",
+          title: "U of M Career Services’ Cover Letter Workbook ",
           link: "https://umanitoba.ca/student/careerservices/media/CoverLetter.pdf",
           description: "Learn how to structure and write a cover letter."
         },
+        {
+          title: "UM Bookstore",
+          link: "https://umanitoba.ca/campus/bookstore/shoponline.html",
+          description: "The University’s online bookstore to purchase course textbooks."
+        }
       ]
     },
     {
