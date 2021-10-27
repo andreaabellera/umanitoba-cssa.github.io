@@ -16,9 +16,12 @@
     justify-content: center;
     flex-wrap: wrap;
 
+    div {
+        padding: 20px 40px;
+    }
+
     a {
         color: $cssa-brown-white;
-        margin: 20px 40px 20px 40px;
         transition: 0.3s;
     }
     a:hover {
@@ -26,6 +29,13 @@
     }
     a:active {
         color: $cssa-orange;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-icons > div {
+        width: 50%;
+        padding: 20px 0;
     }
 }
 

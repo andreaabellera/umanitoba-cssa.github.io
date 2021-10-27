@@ -7,43 +7,39 @@ import { Exec } from 'src/app/Interfaces/exec';
   styleUrls: ['./execs.component.scss']
 })
 export class ExecsComponent implements OnInit {
-  // TODO: Update with proper information
   readonly execs: Exec[] = [
     {
       name: "Ceilidh Simon",
       role: "President",
       photo: "Ceilidh.jpg",
-      description: "Ceilidh is the president of the CSSA. Ceilidh is the president of the CSSA. Ceilidh is the president of the CSSA.",
-      email: "robitai4@myumanitoba.ca",
-      website: "https://markrobitaille.ca",
-      linkedin: "mark-robitaille",
-      github: "MarkRobitaille"
+      description: "I’m a fourth year computer science student who has completed co-op terms at Bold, Agco Winnipeg, and Ubisoft Winnipeg. This is my first year as a CSSA executive, but I was previously treasurer and then president of U of M’s Women In Computer Science Council. In my spare time I play a lot of video games, embroider, and do various martial arts.",
+      email: "simonc@myumanitoba.ca",
+      website: "http://ceilidhsimon.com/",
+      linkedin: "ceilidhsimon",
+      github: "LeeSimon77"
     },
+    // TODO: Confirm Caleb's bio is final or not
     {
       name: "Caleb Beynon",
       role: "Vice-President, Internal",
-      photo: "Caleb.jpg",
-      description: "Something about Caleb. Something about Caleb. Something about Caleb.",
-      email: "robitai4@myumanitoba.ca",
-      website: "https://markrobitaille.ca",
-      linkedin: "mark-robitaille",
-      github: "MarkRobitaille"
+      photo: "Caleb.png",
+      description: "I’m a third year computer science student.",
+      email: "beynonc@myumanitoba.ca",
+      github: "CM-beynon"
     },
     {
       name: "Colton Dietterle",
       role: "Vice-President, Lounge Affairs",
       photo: "Colton.jpg",
-      description: "Something about Colton. Something about Colton. Something about Colton.",
-      email: "robitai4@myumanitoba.ca",
-      website: "https://markrobitaille.ca",
-      linkedin: "mark-robitaille",
-      github: "MarkRobitaille"
+      description: "I'm in my final year of the CS program at the UofM, specializing in theoretical Computer Science. I can usually be found working on a project, gaming with friends in a Discord call, or studying! My favorite type of projects to work on are with Arduino or doing game dev.",
+      email: "dietterc@myumanitoba.ca",
+      github: "dietterc"
     },
     {
       name: "Mark Robitaille",
       role: "Vice-President, Events",
-      photo: "Mark.png",
-      description: "Something about Mark. Something about Mark. Something about Mark.",
+      photo: "Mark.jpg",
+      description: "I’m a fourth-year computer science student, and this is my 3rd and final year as a CSSA executive. I completed co-op terms at Bold, Conquest Planning, and Agriculture and Agri-Food Canada. In my spare time, I often play Pokemon or Animal Crossing. Feel free to message me on the CS Discord.",
       email: "robitai4@myumanitoba.ca",
       website: "https://markrobitaille.ca",
       linkedin: "mark-robitaille",
@@ -53,11 +49,16 @@ export class ExecsComponent implements OnInit {
       name: "Abhi Sachdev",
       role: "Vice-President, Student Affairs",
       photo: "Abhi.jpg",
-      description: "Something about Abhi. Something about Abhi. Something about Abhi.",
-      email: "robitai4@myumanitoba.ca",
-      website: "https://markrobitaille.ca",
-      linkedin: "mark-robitaille",
-      github: "MarkRobitaille"
+      description: "I’m in my final year of the CS program, and this is my first year as a CSSA executive. I am also an alumnus of the CS co-op program and have previously worked at iQmetrix, Librestream, Amazon, and Google. I spend my free time at the gym or at home watching random YouTube videos. Feel free to send me your anime recommendations.",
+      email: "sachdev1@myumanitoba.ca",
+      github: "abhisachdev17"
+    },
+    {
+      name: "Anna Stacey",
+      role: "WICS Representative",
+      photo: "Anna.png",
+      description: "I'm in my last year of studying computer science (co-op) and linguistics. I'm the Vice-Pres of WICS, which means I'm the WICS Rep on the CSSA this year. After long days of coding, I like to play piano, do some baking or just spend time outside.",
+      email: "staceya3@myumanitoba.ca"
     },
   ]
 
