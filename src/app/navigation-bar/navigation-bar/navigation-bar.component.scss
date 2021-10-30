@@ -9,11 +9,14 @@ $nav-bar-height: 55px;
     box-sizing: border-box;
 }
 
+a {
+    padding: 5px;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    // min-height: 8vh;
     height: 65px;
     background-color: $cssa-darkest-brown;
     color: $cssa-brown-white;
@@ -26,25 +29,15 @@ nav {
 .logo {
     float:left;
     height: 40px;
-    // height: 7vh;
     margin-right: 10px;
 }
-
-// .home-button {
-    
-    // width: 30%;
-// }
 
 .home-button a {
     display: flex;
     align-items: center;
-
-    // width: 100%;
     font-size: 20px;
-    // color: $cssa-brown-white;
     color: $cssa-yellow;
     text-decoration: none;
-    padding: 5px;
     margin: 5px;
 }
 
@@ -58,9 +51,7 @@ nav {
 .nav-links a {
     font-size: 18px;
     color: $cssa-brown-white;
-    // color: $cssa-yellow;
     text-decoration: none;
-    padding: 5px;
     transition: 0.3s;
     font-weight: 600;
 }
@@ -75,6 +66,10 @@ nav {
     border-radius: 3px;
 }
 
+.nav-menu-button {
+    display:none;
+}
+
 .nav-menu {
     display:none;
 }
@@ -87,21 +82,57 @@ nav {
 
 @media only screen and (max-width: 800px) {
     .nav-links {
-        // position: absolute;
-        // right: 0px;
-        // top: 5
         display:none;
     }
-    .nav-menu {
+    .nav-menu-button {
         display:block;
         outline:none;
         border:none;
         background: transparent;
         color: $cssa-brown-white;
+        cursor: pointer;
     }
 
     .home-button a {
         font-size: 18px;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding-top: 65px;
+        display: block;
+        background-color: $cssa-darkest-brown;
+        z-index: 8;
+    }
+    
+    .nav-menu-links {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .nav-menu-links a {
+        font-size: xx-large;
+        color: $cssa-brown-white;
+        text-decoration: none;
+        transition: 0.3s;
+        font-weight: 600;
+    }
+    
+    .nav-menu-links a:hover {
+        background-color: $cssa-dark-brown;
+        border-radius: 3px;
+    }
+    
+    .nav-menu-links a:active {
+        background-color: $cssa-brown;
+        border-radius: 3px;
     }
 }
 
@@ -110,5 +141,3 @@ nav {
         font-size: 14px;
     }
 }
-
-// TODO Finish mobile version of the navbar
