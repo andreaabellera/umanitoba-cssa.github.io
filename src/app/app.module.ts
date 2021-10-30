@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar/navigation-bar.component';
 
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
-import { faArrowAltCircleDown, faBars, faEnvelope, faGlobe, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import { faArrowAltCircleDown, faBars, faTimes, faEnvelope, faGlobe, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { faDiscord, faSlack, faFacebookSquare, faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { WelcomePanelComponent } from './welcome-panel/welcome-panel/welcome-panel.component';
 import { AboutComponent } from './about/about/about.component';
@@ -48,6 +48,7 @@ export class AppModule {
     // Add an icon to the library for convenient access in other components
     library.addIcons(faArrowAltCircleDown);
     library.addIcons(faBars);
+    library.addIcons(faTimes);
     library.addIcons(faEnvelope);
     library.addIcons(faGlobe);
     library.addIcons(faDiscord);
