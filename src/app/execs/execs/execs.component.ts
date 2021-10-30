@@ -18,12 +18,11 @@ export class ExecsComponent implements OnInit {
       linkedin: "ceilidhsimon",
       github: "LeeSimon77"
     },
-    // TODO: Confirm Caleb's bio is final or not
     {
       name: "Caleb Beynon",
       role: "Vice-President, Internal",
       photo: "Caleb.png",
-      description: "I’m a third year computer science student.",
+      description: "I’m a third year computer science student and I’m currently on my second co-op term. I worked at G3 Canada for my first co-op term and am currently working at Bison Transport. This is my second year as a CSSA executive. I love making digital art and playing video games in my spare time! I’m particularly fond of Hollow Knight and the Zero Escape series.",
       email: "beynonc@myumanitoba.ca",
       github: "CM-beynon"
     },
@@ -39,7 +38,7 @@ export class ExecsComponent implements OnInit {
       name: "Mark Robitaille",
       role: "Vice-President, Events",
       photo: "Mark.jpg",
-      description: "I’m a fourth-year computer science student, and this is my 3rd and final year as a CSSA executive. I completed co-op terms at Bold, Conquest Planning, and Agriculture and Agri-Food Canada. In my spare time, I often play Pokemon or Animal Crossing. Feel free to message me on the CS Discord.",
+      description: "I’m a fourth-year computer science student, and this is my 3rd and final year as a CSSA executive. I have completed co-op terms at Bold Commerce, Conquest Planning, and Agriculture and Agri-Food Canada. In my spare time, I often play Pokemon or Animal Crossing. Feel free to message me on the CS Discord.",
       email: "robitai4@myumanitoba.ca",
       website: "https://markrobitaille.ca",
       linkedin: "mark-robitaille",
