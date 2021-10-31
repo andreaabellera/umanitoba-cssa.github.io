@@ -50,6 +50,7 @@ export class ExecsComponent implements OnInit {
       photo: "Abhi.jpg",
       description: "I’m in my final year of the CS program, and this is my first year as a CSSA executive. I am also an alumnus of the CS co-op program and have previously worked at iQmetrix, Librestream, Amazon, and Google. I spend my free time at the gym or at home watching random YouTube videos. Feel free to send me your anime recommendations.",
       email: "sachdev1@myumanitoba.ca",
+      linkedin: "abhi-sachdev",
       github: "abhisachdev17"
     },
     {

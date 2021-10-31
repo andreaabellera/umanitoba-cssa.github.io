@@ -79,9 +79,13 @@ li:hover {
     border: 1px solid $cssa-darkest-brown;
 }
 
+.selector-prompt {
+    display: none;
+}
+
 @media only screen and (max-width: 800px) {
-    .selector {
-        display: inline-block;
+    .selector, .selector-prompt {
+        display: block;
     }
     .tab-list, .horizontal-bar {
         display: none;

@@ -109,14 +109,19 @@ export class ResourcesComponent implements OnInit {
           description: "See important deadlines, holidays, and other dates that are relevant to University of Manitoba students."
         },
         {
-          title: "Student Counseling Center",
-          link: "https://umanitoba.ca/student-supports/counselling-resources-students",
-          description: "The Student Counselling Centre (SCC) offers students a variety of counselling support including workshops, groups and individual counselling."
-        },
-        {
           title: "U of M Science Academic Advisors",
           link: "https://sci.umanitoba.ca/students/undergraduate-students/academic-advisors/",
           description: "Get advice from the University of Manitoba’s Science Academic Advisors on your program plan, graduation, and more."
+        },
+        {
+          title: "U of M Academic Calendar - Computer Science",
+          link: "https://catalog.umanitoba.ca/undergraduate-studies/science/computer-science/",
+          description: "Use the Academic Calendar to get more information on the Computer Science programs offered at U of M, along with course details (including pre-requisites)"
+        },
+        {
+          title: "U of M Computer Science Undergraduate Requirements",
+          link: "https://sci.umanitoba.ca/cs/undergraduate-programs/",
+          description: "This page contains a list of all the requirements (e.g., courses, credit hours) for the honours, major, minor, and joint programs."
         },
         {
           title: "U of M Computer Science Courses",
@@ -124,9 +129,14 @@ export class ResourcesComponent implements OnInit {
           description: "See a list of all of the Computer Science courses taught at the University of Manitoba and the semesters they are taught in."
         },
         {
-          title: "U of M Computer Science Undergraduate Requirements",
-          link: "https://sci.umanitoba.ca/cs/undergraduate-programs/",
-          description: "This page contains a list of all the requirements (e.g., courses, credit hours) for the honours, major, minor, and joint programs."
+          title: "U of M's Expectations for Individual Work in Computer Science",
+          link: "https://sci.umanitoba.ca/cs/expectations/",
+          description: "The Department of Computer Science provides this page to guide students on what they expect and what constitutes academic misconduct."
+        },
+        {
+          title: "Student Counseling Center",
+          link: "https://umanitoba.ca/student-supports/counselling-resources-students",
+          description: "The Student Counselling Centre (SCC) offers students a variety of counselling support including workshops, groups and individual counselling."
         },
         {
           title: "U of M Libraries",
@@ -139,16 +149,6 @@ export class ResourcesComponent implements OnInit {
           description: "This page contains links on how to cite and reference books, articles, etc. in multiple formats like APA or Chicago."
         },
         {
-          title: "U of M's Expectations for Individual Work in Computer Science",
-          link: "https://sci.umanitoba.ca/cs/expectations/",
-          description: "The Department of Computer Science provides this page to guide students on what they expect and what constitutes academic misconduct."
-        },
-        {
-          title: "Nimbus Tutoring",
-          link: "https://nimbuslearning.com/get-the-app/",
-          description: "The SSA provides a peer tutoring service through the Nimbus Tutoring platform."
-        },
-        {
           title: "U of M Career Services’ Resume Workbook ",
           link: "https://umanitoba.ca/student/careerservices/media/Resume.pdf",
           description: "Get useful advice on how to craft the perfect resume."
@@ -157,6 +157,11 @@ export class ResourcesComponent implements OnInit {
           title: "U of M Career Services’ Cover Letter Workbook ",
           link: "https://umanitoba.ca/student/careerservices/media/CoverLetter.pdf",
           description: "Learn how to structure and write a cover letter."
+        },
+        {
+          title: "Nimbus Tutoring",
+          link: "https://nimbuslearning.com/get-the-app/",
+          description: "The SSA provides a peer tutoring service through the Nimbus Tutoring platform."
         },
         {
           title: "UM Bookstore",
