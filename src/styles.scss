@@ -38,6 +38,15 @@ a:visited {
     color: $um-light-blue;
 }
 
+select {
+    padding: 5px;
+    background-color: white;
+    color: $cssa-darkest-brown;
+    border-radius: 3px;
+    border: 1px solid $cssa-darkest-brown;
+    font-size: large;
+}
+
 .reference {
     // Negative value of $nav-bar-height in navigation-bar.component.scss
     top:-65px;
