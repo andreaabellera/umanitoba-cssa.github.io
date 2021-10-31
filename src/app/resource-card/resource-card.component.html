@@ -10,7 +10,12 @@
     <div class="resource-details">
         <h3>
             <a href="{{resource.link}}" target="_blank">{{resource.title}}</a>
-            <a class="icon-link" href="{{resource.link}}" target="_blank">
+            <a
+                class="icon-link"
+                href="{{resource.link}}"
+                target="_blank"
+                title="Open {{resource.title}} in new tab"
+            >
                 <fa-icon [icon]="['fas', 'external-link-alt']"></fa-icon>
             </a>
         </h3>

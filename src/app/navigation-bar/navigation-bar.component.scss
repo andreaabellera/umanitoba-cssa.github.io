@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
-@import "../../../variables.scss";
+@import "../../variables.scss";
 
-$nav-bar-height: 55px;
+$nav-bar-height: 65px;
 
 * {
     margin: 0px;
@@ -17,7 +16,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 65px;
+    height: $nav-bar-height;
     background-color: $cssa-darkest-brown;
     color: $cssa-brown-white;
     letter-spacing: 1px;
@@ -103,7 +102,7 @@ nav {
         bottom: 0;
         left: 0;
         right: 0;
-        padding-top: 65px;
+        padding-top: $nav-bar-height;
         display: block;
         background-color: $cssa-darkest-brown;
         z-index: 8;

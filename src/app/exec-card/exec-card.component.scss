@@ -1,4 +1,4 @@
-@import "../../../variables.scss";
+@import "../../variables.scss";
 
 .exec-connections {
     display: flex;
@@ -12,9 +12,11 @@
         color: $um-blue;
         transition: 0.3s;
     }
+
     a:hover {
         color: $um-dark-blue;
     }
+
     a:active {
         color: $um-darkest-blue;
     }
@@ -26,7 +28,6 @@
     img {
         width: 200px; 
         height: 200px; 
-        
         border-radius: 50%;
     }
 }
@@ -43,8 +44,8 @@ h3 {
 }
 
 .exec-description {
-    // text-align: center;
     margin-top: 10px;
+    
     p {
         width: 90%;
         margin-left: auto;

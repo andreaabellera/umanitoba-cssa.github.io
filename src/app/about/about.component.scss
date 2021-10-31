@@ -1,0 +1,40 @@
+// TODO: Style the accordion and the iframe size for the Discord sign up form embed
+// NOTE: This initial styling will need to be changed. Could instead have a set height for form to make this easier and more compact.
+
+// .google-form {
+//     width: 100%;
+//     height: 1550px;
+// }
+
+// Cannot match height for security reasons on iframes, so must make custom heights for widths to avoid scroll bars 
+// (NOTE: Could just have static height instead of trying to make it reactive? Experiment first)
+
+// @media only screen and (max-width: 800px) {
+//     .google-form {
+//         height: 1650px;
+//     }
+// }
+
+// @media only screen and (max-width: 700px) {
+//     .google-form {
+//         height: 1750px;
+//     }
+// }
+
+// @media only screen and (max-width: 600px) {
+//     .google-form {
+//         height: 1850px;
+//     }
+// }
+
+// @media only screen and (max-width: 500px) {
+//     .google-form {
+//         height: 1950px;
+//     }
+// }
+
+// @media only screen and (max-width: 400px) {
+//     .google-form {
+//         height: 2050px;
+//     }
+// }

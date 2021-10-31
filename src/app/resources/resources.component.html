@@ -14,12 +14,15 @@
                 class="tab"
                 [class.selected-tab]="currentCategory.id === category.id"
                 (click)="selectTab(category)"
+                (keyup.enter)="selectTab(category)"
+                tabindex="0"
             >{{category.name}}</li>
         </ul>
         <div class="horizontal-bar"></div>
         <select
             class="selector"
             [(ngModel)]="currentCategory"
+            title="Select a Resource Category"
         >
             <option *ngFor="let category of categories" [ngValue]="category">{{category.name}}</option>
         </select>

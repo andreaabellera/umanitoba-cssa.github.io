@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Exec } from 'src/app/Interfaces/exec';
+import { Exec } from '../interfaces/exec';
 
 @Component({
   selector: 'execs',
@@ -65,5 +65,4 @@ export class ExecsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Exec } from 'src/app/Interfaces/exec';
+import { Exec } from '../interfaces/exec';
 
 @Component({
   selector: 'exec-card',
@@ -13,5 +13,4 @@ export class ExecCardComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

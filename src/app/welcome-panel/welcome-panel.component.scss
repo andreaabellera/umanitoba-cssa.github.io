@@ -1,0 +1,58 @@
+@import "../../variables.scss";
+
+.welcome-panel {
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    display:flex-end;
+    background: rgb(121, 121, 121);
+    background-image: url("/assets/images/welcome.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index:0;
+}
+
+.welcome-text-overlay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-end;
+    align-items: flex-end;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 10vh;
+    width: 100%;
+}
+
+.welcome-text {
+    color: $cssa-brown-white;
+    z-index:1;
+
+    h2 {
+        font-size: max(25px,min(5vw, 5vh));
+    }
+
+    h1 {
+        font-size: max(35px, min(7vw, 7vh));
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+.welcome-down-icon {
+    text-align: center;
+    padding: 10px;
+    color: $cssa-yellow;
+    transition: 0.3s;
+}
+
+.welcome-down-icon:hover {
+    color: $um-yellow;
+}
+
+.welcome-down-icon:active {
+    color: $cssa-orange;
+}

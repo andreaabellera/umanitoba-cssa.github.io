@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Resource } from '../Interfaces/resource';
+import { Resource } from '../interfaces/resource';
 
 @Component({
   selector: 'resource-card',
@@ -13,5 +13,4 @@ export class ResourceCardComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
