@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ResourceCategory } from 'src/app/Interfaces/resource-category';
+import { ResourceCategory } from '../interfaces/resource-category';
 
 @Component({
   selector: 'resources',

@@ -14,5 +14,4 @@ export class ImgBarComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

@@ -1,0 +1,42 @@
+@import "../../variables.scss";
+
+.contact-footer {
+    width: 100%;
+    color: $cssa-brown-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    div {
+        padding: 20px 40px;
+    }
+
+    a {
+        color: $cssa-brown-white;
+        transition: 0.3s;
+    }
+
+    a:hover {
+        color: $cssa-yellow;
+    }
+    
+    a:active {
+        color: $cssa-orange;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-icons > div {
+        width: 50%;
+        padding: 20px 0;
+    }
+}

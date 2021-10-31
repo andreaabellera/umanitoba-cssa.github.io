@@ -1,4 +1,3 @@
-
 <div>
     <h2 *ngIf="exec.nickName!==undefined; else elseBlock">
         {{exec.name}} ({{exec.nickName}})
@@ -18,22 +17,37 @@
     </div>
     <ul class="exec-connections">
         <li *ngIf="exec.email!==undefined">
-            <a href="{{'mailto:' + exec.email}}">
+            <a
+                href="{{'mailto:' + exec.email}}"
+                title="Send email to {{exec.nickName ?? exec.name}}"
+            >
                 <fa-icon [icon]="['fas', 'envelope']" size="2x"></fa-icon>
             </a>
         </li>
         <li *ngIf="exec.website!==undefined">
-            <a href="{{exec.website}}" target="_blank">
+            <a
+                href="{{exec.website}}"
+                target="_blank"
+                title="Open {{exec.nickName ?? exec.name}}'s personal website"
+            >
                 <fa-icon [icon]="['fas', 'globe']" size="2x"></fa-icon>
             </a>
         </li>
         <li *ngIf="exec.linkedin!==undefined">
-            <a href="{{'https://www.linkedin.com/in/' + exec.linkedin}}" target="_blank">
+            <a
+                href="{{'https://www.linkedin.com/in/' + exec.linkedin}}"
+                target="_blank"
+                title="Open {{exec.nickName ?? exec.name}}'s LinkedIn"
+            >
                 <fa-icon [icon]="['fab', 'linkedin']" size="2x"></fa-icon>
             </a>
         </li>
         <li *ngIf="exec.github!==undefined">
-            <a href="{{'https://github.com/' + exec.github}}" target="_blank">
+            <a
+                href="{{'https://github.com/' + exec.github}}"
+                target="_blank"
+                title="Open {{exec.nickName ?? exec.name}}'s GitHub"
+            >
                 <fa-icon [icon]="['fab', 'github']" size="2x"></fa-icon>
             </a>
         </li>

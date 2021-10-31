@@ -11,5 +11,4 @@ export class WelcomePanelComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
