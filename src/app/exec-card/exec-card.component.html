@@ -10,7 +10,7 @@
     <h3>{{exec.role}}</h3>
     <div class="exec-photo">
         <img
-            src="{{'assets/images/execs/' + exec.photo}}"
+            src="{{'src/assets/images/execs/' + exec.photo}}"
             alt="{{'Image of ' + exec.name}}"
             loading="lazy"
         >
@@ -21,7 +21,7 @@
                 href="{{'mailto:' + exec.email}}"
                 title="Send email to {{exec.nickName ?? exec.name}}"
             >
-                <fa-icon [icon]="['fas', 'envelope']" size="2x"></fa-icon>
+                <fa-icon [icon]="faEnvelope" size="2x"></fa-icon>
             </a>
         </li>
         <li *ngIf="exec.website!==undefined">

@@ -3,8 +3,8 @@ import { Exec } from '../interfaces/exec';
 
 @Component({
   selector: 'execs',
-  templateUrl: './execs.component.html',
-  styleUrls: ['./execs.component.scss']
+  templateUrl: 'src/app/execs/execs.component.html',
+  styleUrls: ['src/app/execs/execs.component.scss']
 })
 export class ExecsComponent implements OnInit {
   readonly execs: Exec[] = [

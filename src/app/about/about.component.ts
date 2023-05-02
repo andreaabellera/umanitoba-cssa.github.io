@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.scss']
+  templateUrl: 'src/app/about/about.component.html',
+  styleUrls: ['src/app/about/about.component.scss']
 })
 export class AboutComponent implements OnInit {
 

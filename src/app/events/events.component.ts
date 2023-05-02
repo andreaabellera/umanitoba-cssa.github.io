@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'events',
-  templateUrl: './events.component.html',
-  styleUrls: ['./events.component.scss']
+  templateUrl: 'src/app/events/events.component.html',
+  styleUrls: ['src/app/events/events.component.scss']
 })
 export class EventsComponent implements OnInit {
 

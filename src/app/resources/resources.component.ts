@@ -3,8 +3,8 @@ import { ResourceCategory } from '../interfaces/resource-category';
 
 @Component({
   selector: 'resources',
-  templateUrl: './resources.component.html',
-  styleUrls: ['./resources.component.scss']
+  templateUrl: 'src/app/resources/resources.component.html',
+  styleUrls: ['src/app/resources/resources.component.scss']
 })
 export class ResourcesComponent implements OnInit {
   readonly categories: ResourceCategory[] = [

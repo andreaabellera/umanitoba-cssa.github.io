@@ -3,8 +3,8 @@ import { Exec } from '../interfaces/exec';
 
 @Component({
   selector: 'exec-card',
-  templateUrl: './exec-card.component.html',
-  styleUrls: ['./exec-card.component.scss']
+  templateUrl: 'src/app/exec-card/exec-card.component.html',
+  styleUrls: ['src/app/exec-card/exec-card.component.scss']
 })
 export class ExecCardComponent implements OnInit {
   @Input() exec!: Exec;

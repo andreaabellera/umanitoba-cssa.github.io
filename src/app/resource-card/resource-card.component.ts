@@ -3,8 +3,8 @@ import { Resource } from '../interfaces/resource';
 
 @Component({
   selector: 'resource-card',
-  templateUrl: './resource-card.component.html',
-  styleUrls: ['./resource-card.component.scss']
+  templateUrl: 'src/app/resource-card/resource-card.component.html',
+  styleUrls: ['src/app/resource-card/resource-card.component.scss']
 })
 export class ResourceCardComponent implements OnInit {
   @Input() resource!: Resource;
